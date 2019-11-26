@@ -1,0 +1,19 @@
+::-webkit-scrollbar { 
+    width: 0px; 
+    background: transparent;
+}
+
+html {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    background: #000;
+}
+
+body {
+    font-family: GothamPro;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1024px;
+    background: #fff;
+    color: #000;
+}
