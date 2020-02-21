@@ -1,7 +1,6 @@
 .header,
-.main,
-.footer {
-    max-width: 100%;
+.main {
+    width: 930px;
     margin: 0 auto;
     padding: 0 47px 0 47px;
 }
@@ -10,6 +9,14 @@
     display: flex;
     padding: 0 0 42px 0;
 }
+
+
+/* @media (max-width: 1023px) {
+    .header__main {
+        display: none;
+        padding: 40px 465px;
+    }
+} */
 
 .header__logo {
     margin: 0;
@@ -114,13 +121,9 @@
 .header__image {
     margin: 0 0 67px 0;
     height: 252.82px;
-    /*width: 930px;*/
+    width: 930px;
     display: flex;
     align-items: center;
-}
-
-.header__image>img {
-    width: 100%;
 }
 
 .header__image-text {
