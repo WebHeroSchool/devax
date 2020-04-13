@@ -1,0 +1,161 @@
+@media (max-width: 767px) {
+    .header,
+    .main,
+    .footer {
+        max-width: 320px;
+        margin: 0;
+        padding: 0;
+    }
+    .header__main {
+        display: none;
+    }
+    .header__main-tablet {
+        display: none;
+    }
+    .header__main-mobile {
+        width: 100%;
+        height: 72px;
+    }
+    .header__main-mobile_logo {
+        position: relative;
+        left: 20px;
+        top: 24px;
+        margin: 0;
+        padding: 0;
+    }
+    .header__image-desc {
+        display: none !important;
+    }
+    .header__image-tablet {
+        display: none;
+    }
+    .header__image-mobile {
+        display: flex;
+        width: 100%;
+        height: 191px;
+        margin: 0 0 37px 0;
+    }
+    .header__image-text-mobile {
+        position: absolute;
+        font-family: GothamPro-Bold;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .header__title-mobile {
+        position: absolute;
+        top: 44px;
+        left: 20px;
+        width: 200px;
+        font-size: 20px;
+        line-height: 19px;
+        text-transform: uppercase;
+        white-space: pre-wrap;
+    }
+    .header__image-link-mobile {
+        position: relative;
+        top: 136px;
+        left: 20px;
+        font-size: 12px;
+        line-height: 11px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+    }
+    .header__image-link-mobile img {
+        padding: 0 0 0 3px;
+    }
+    .catalog-tablet {
+        display: none;
+    }
+    /* .content,
+    .stories,
+    .photo,
+    .footer {
+        display: none;
+    } */
+    body {
+        max-width: 320px !important;
+    }
+    .catalog__text-mobile {
+        position: relative;
+        right: 26px;
+        width: 222px;
+        margin: 0 0 6px 0;
+        font-family: GothamPro-Bold;
+        font-size: 20px;
+        line-height: 19px;
+        text-transform: uppercase;
+        text-align: justify;
+    }
+    .catalog-mobile {
+        padding: 0 70px 0 70px;
+    }
+    .catalog__items-mobile {
+        position: relative;
+        margin: 0 0 52px 0;
+    }
+    .catalog__item_black-mobile {
+        padding: 0;
+        position: relative;
+        margin: 0;
+        height: 352px;
+        width: 280px;
+    }
+    .catalog__item_img-mobile {
+        margin: 0 0 18px 11px;
+    }
+    .catalog__item_text-mobile {
+        position: relative;
+        right: 34px;
+        margin: 0;
+        font-family: GothamPro;
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .catalog__item-description-mobile {
+        margin: 0 0 5px 0;
+    }
+    .catalog__item-price-mobile {
+        margin: 0 -1px;
+        width: 40px;
+        font-family: GothamPro-Bold;
+        font-size: 20px;
+        line-height: 19px;
+    }
+    .item__color_black-mobile {
+        position: relative;
+        left: 190px;
+        bottom: 15px;
+        margin: 0;
+        padding: 0;
+        height: 40px;
+    }
+    .grey-mobile,
+    .black-mobile,
+    .red-mobile,
+    .yellow-mobile,
+    .camel-mobile {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        padding: 0;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+    }
+    .grey-mobile {
+        background: #C4C4C4;
+    }
+    .black-mobile {
+        background: #0E1211;
+    }
+    .red-mobile {
+        background: #B62E3C;
+    }
+    .yellow-mobile {
+        background: #FDB431;
+    }
+    .camel-mobile {
+        background: #E29D69;
+    }
+}

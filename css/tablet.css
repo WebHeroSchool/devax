@@ -175,3 +175,15 @@
         display: none;
     }
 }
+
+@media (min-width: 767px) {
+    .header__main-mobile {
+        display: none;
+    }
+    .header__image-mobile {
+        display: none;
+    }
+    .catalog-mobile {
+        display: none;
+    }
+}
