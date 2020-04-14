@@ -1,3 +1,10 @@
+.content,
+.stories,
+.photo,
+.footer {
+    display: none;
+}
+
 @media (max-width: 1023px) {
     .header,
     .main,
@@ -61,12 +68,6 @@
     .catalog {
         display: none;
     }
-    /* .content,
-    .stories,
-    .photo,
-    .footer {
-        display: none;
-    } */
     body {
         max-width: 768px !important;
     }
