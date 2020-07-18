@@ -6,12 +6,8 @@
 }
 
 @media (max-width: 1023px) {
-    .header,
-    .main,
-    .footer {
-        max-width: 768px;
-        margin: 0;
-        padding: 0;
+    body {
+        max-width: 768px !important;
     }
     .header__main {
         display: none;
@@ -27,35 +23,28 @@
         margin: 0;
         padding: 0;
     }
-    .header__image-desc {
-        display: none !important;
+    .header__main-table_menu {
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        right: 44px;
+        top: 7px;
     }
     .header__image-tablet {
+        position: absolute;
+        top: 114px;
         display: flex;
         width: 100%;
         height: 415px;
         margin: 0 0 64px 0;
     }
-    .header__image-text-tablet {
-        position: absolute;
-        font-family: GothamPro-Bold;
-        text-transform: uppercase;
-        color: #fff;
-    }
-    .header__title-tablet {
-        position: absolute;
-        top: 70px;
-        left: 44px;
-        width: 200px;
-        font-size: 50px;
-        line-height: 48px;
-        text-transform: uppercase;
-        white-space: pre-wrap;
-    }
     .header__image-link-tablet {
         position: relative;
-        top: 312px;
-        left: 44px;
+        top: 211px;
+        right: 724px;
+        display: inline-block;
+        width: 202px;
+        height: 20px;
         font-size: 20px;
         line-height: 19px;
         text-transform: uppercase;
@@ -65,11 +54,38 @@
     .header__image-link-tablet img {
         padding: 0 0 0 4px;
     }
-    .catalog {
+    .header__image-desc {
+        position: relative;
+        width: 930px;
+        height: 415px;
+        margin: 0 0 65px 0;
+        background-size: cover;
+    }
+    .header__title {
+        position: relative;
+        top: -17px;
+        left: 45px;
+        z-index: 1;
+        font-size: 50px;
+        line-height: 48px;
+        text-transform: uppercase;
+        white-space: pre-wrap;
+    }
+    /* .header__image-link {
+        position: relative;
+        bottom: 9px;
+        left: 45px;
+        font-size: 20px;
+        line-height: 19px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+    } */
+    .header__image-link {
         display: none;
     }
-    body {
-        max-width: 768px !important;
+    .catalog {
+        display: none;
     }
     .catalog__text-tablet {
         margin: 0 0 15px 0;
@@ -177,7 +193,7 @@
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .header__main-mobile {
         display: none;
     }
