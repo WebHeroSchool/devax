@@ -15,6 +15,7 @@
                 top: 72px;
                 left: -89px; */
                 background-size: contain;
+                background-position-x: -61px;
             }
             .header__image-tablet {
                 display: none;
@@ -204,5 +205,23 @@
             }
             .camel-mobile {
                 background: #E29D69;
+            }
+        }
+        
+        @media (max-width: 374px) {
+            .header__main-mobile_logo {
+                left: 20px;
+            }
+            .header__title {
+                left: 20px;
+            }
+            .header__image-link {
+                left: 20px;
+            }
+            .catalog__text-mobile {
+                margin: 0 0 0 44px;
+            }
+            .header__image-desc {
+                background-position-x: -89px;
             }
         }
