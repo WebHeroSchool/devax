@@ -43,6 +43,9 @@
             .header__image-link img {
                 padding: 0 0 0 2px;
             }
+            .header__image-link-tab {
+                display: none;
+            }
             .catalog {
                 display: none;
             }
@@ -223,5 +226,8 @@
             }
             .header__image-desc {
                 background-position-x: -89px;
+            }
+            .header__image-link-tab {
+                display: none;
             }
         }
