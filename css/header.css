@@ -100,7 +100,7 @@
     
     .header__link_cart img {
         position: relative;
-        top: 5px;
+        top: 4px;
         margin: 0;
         padding: 2px 0px 0px 0px;
     }
@@ -110,7 +110,7 @@
     
     .header__form-language {
         position: relative;
-        left: 36px;
+        left: 35px;
         bottom: 4px;
     }
     
