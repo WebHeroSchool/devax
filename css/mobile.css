@@ -1,0 +1,233 @@
+        .content,
+        .stories,
+        .photo,
+        .footer {
+            display: none;
+        }
+        
+        @media (max-width: 767px) {
+            .header__image-desc {
+                max-width: 767px;
+                min-width: 320px;
+                height: 191px;
+                margin: 0 0 37px 0;
+                /* position: absolute;
+                top: 72px;
+                left: -89px; */
+                background-size: contain;
+                background-position-x: -61px;
+            }
+            .header__image-tablet {
+                display: none;
+            }
+            .header__title {
+                position: relative;
+                top: 7px;
+                left: 48px;
+                width: 200px;
+                font-size: 20px;
+                line-height: 19px;
+                text-transform: uppercase;
+                white-space: pre-wrap;
+            }
+            .header__image-link {
+                position: relative;
+                top: 1px;
+                left: 48px;
+                font-size: 12px;
+                line-height: 11px;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #fff;
+            }
+            .header__image-link img {
+                padding: 0 0 0 2px;
+            }
+            .header__image-link-tab {
+                display: none;
+            }
+            .catalog {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            body {
+                min-width: 320px !important;
+            }
+            .header,
+            .main,
+            .footer {
+                min-width: 320px;
+                margin: 0 auto;
+                padding: 0;
+            }
+            .header__main {
+                display: none;
+            }
+            .header__main-tablet {
+                display: none;
+            }
+            .header__main-mobile {
+                width: 100%;
+                height: 72px;
+            }
+            .header__main-mobile_logo {
+                position: relative;
+                left: 48px;
+                top: 24px;
+                margin: 0;
+                padding: 0;
+            }
+            /* .header__image-desc {
+                display: none !important;
+            } */
+            .header__image-tablet {
+                display: none;
+            }
+            /* .header__image-mobile {
+                display: flex;
+                width: 100%;
+                height: 191px;
+                margin: 0 0 37px 0;
+            } */
+            /* .header__image-text-mobile {
+                position: relative;
+                font-family: GothamPro-Bold;
+                text-transform: uppercase;
+                color: #fff;
+            } */
+            /* .header__title-mobile {
+                position: absolute;
+                top: 45px;
+                right: 185px;
+                width: 200px;
+                font-size: 20px;
+                line-height: 19px;
+                text-transform: uppercase;
+                white-space: pre-wrap;
+            } */
+            /* .header__image-link-mobile {
+                display: flex;
+                width: 150%;
+                position: relative;
+                top: 141px;
+                right: 300px;
+                font-size: 12px;
+                line-height: 11px;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #fff;
+            } */
+            /* .header__image-link-mobile img {
+                padding: 0 0 0 3px;
+            } */
+            .catalog-tablet {
+                display: none;
+            }
+            .catalog-mobile {
+                display: block;
+                margin: 0;
+                padding: 0;
+            }
+            .catalog__text-mobile {
+                margin: 0 72px;
+                padding: 0 0 6px 0;
+                font-family: GothamPro-Bold;
+                font-size: 20px;
+                line-height: 19px;
+                text-transform: uppercase;
+                text-align: justify;
+            }
+            .catalog__items-mobile {
+                display: block;
+                max-width: 320px;
+                margin: 0 auto;
+                padding: 0;
+            }
+            .catalog__item_black-mobile {
+                margin: 0 auto;
+                padding: 0;
+                height: 248px;
+                width: 281px;
+            }
+            .catalog__item_img-mobile {
+                width: max-content;
+                margin: 0 0 18px 60px;
+            }
+            .catalog__item_text-mobile {
+                margin: 0;
+                padding: 0;
+                font-family: GothamPro;
+                font-size: 15px;
+                line-height: 14px;
+            }
+            .catalog__item-description-mobile {
+                margin: 0 0 5px 0;
+                padding: 0 0 0 16px;
+            }
+            .catalog__item-price-mobile {
+                margin: 0;
+                padding: 0 0 0 14px;
+                font-family: GothamPro-Bold;
+                font-size: 20px;
+                line-height: 19px;
+            }
+            .item__color_black-mobile {
+                position: relative;
+                left: 207px;
+                bottom: 15px;
+                margin: 0;
+                padding: 0;
+                height: 40px;
+            }
+            .grey-mobile,
+            .black-mobile,
+            .red-mobile,
+            .yellow-mobile,
+            .camel-mobile {
+                display: inline-block;
+                vertical-align: middle;
+                margin: 0;
+                padding: 0;
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+            }
+            .grey-mobile {
+                background: #C4C4C4;
+            }
+            .black-mobile {
+                background: #0E1211;
+            }
+            .red-mobile {
+                background: #B62E3C;
+            }
+            .yellow-mobile {
+                background: #FDB431;
+            }
+            .camel-mobile {
+                background: #E29D69;
+            }
+        }
+        
+        @media (max-width: 374px) {
+            .header__main-mobile_logo {
+                left: 20px;
+            }
+            .header__title {
+                left: 20px;
+            }
+            .header__image-link {
+                left: 20px;
+            }
+            .catalog__text-mobile {
+                margin: 0 0 0 44px;
+            }
+            .header__image-desc {
+                background-position-x: -89px;
+            }
+            .header__image-link-tab {
+                display: none;
+            }
+        }

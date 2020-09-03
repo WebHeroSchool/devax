@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <title>Axion</title>
 </head>
 
@@ -17,8 +19,12 @@
     <header class="header">
         <section class="header__main">
             <section class="header__logo">
-                <img src="img/header__menu/Axion-logo-1.png" alt="Axion">
+                <img src="img/header__menu/Axion-logo-1024.png" alt="Axion">
             </section>
+            <section class="header__logo-1170">
+                <img src="img/header__menu/Axion-logo-1170.png" alt="Axion">
+            </section>
+
             <nav class="header__menu">
                 <a class="header__menu_shop" href="">SHOP</a>
                 <a class="header__menu_news" href="">NEWS</a>
@@ -32,19 +38,58 @@
             </form>
             <section class="header__link">
                 <a class="header__link_signin" href="">SIGN IN</a>
-                <a class="header__link_cart" href="">CART <img src="img/header__menu/Group 2.png" alt="cart"></a>
+                <a class="header__link_cart" href="">CART <img src="img/header__menu/1170.png" alt="cart"></a>
+                <!-- <a class="header__link_cart-1170" href="">CART <img src="img/header__menu/1170.png" alt="cart"></a> -->
             </section>
             <section class="header__form-language">
                 <img src="img/header__menu/united-states.png" alt="language">
             </section>
         </section>
-        <section class="header__image">
-            <img src="img/header__image/rob-potter-422534-unsplash.jpg" alt="unsplash">
-            <section class="header__image-text">
-                <h1 class="header__title">LEGENDARY FOOTWEAR REBORN.</h1>
-                <a href="" class="header__image-link">SHOP NOW <img src="img/header__menu/Arrow.png" alt="shop now"></a>
+
+        <section class="header__main-tablet">
+            <section class="header__main-tablet_logo">
+                <img src="img/header__menu/Axion-logo-2.png" alt="logo">
+            </section>
+            <section class="header__main-table_menu">
+                <img src="img/header__menu/Group 18.png" alt="menu">
             </section>
         </section>
+
+        <section class="header__main-mobile">
+            <section class="header__main-mobile_logo">
+                <img src="img/header__menu/Axion-logo-3.jpg" alt="logo">
+            </section>
+            <section class="header__main-mobile_menu">
+
+            </section>
+        </section>
+
+        <section class="header__image-desc">
+            <section class="header__image-text">
+                <h1 class="header__title">LEGENDARY FOOTWEAR REBORN.</h1>
+                <a href="" class="header__image-link">SHOP NOW<img src="img/header__menu/Arrow.png" alt="shop now"></a>
+                <a href="" class="header__image-link-tab">SHOP NOW<img src="img/header__menu/Arrow-769.png" alt="shop now"></a>
+
+            </section>
+        </section>
+
+        <!-- <section class="header__image-tablet">
+            <img src="img/header__image/rob-potter-422534-unsplash1.jpg" alt="image">
+            <section class="header__image-text-tablet">
+                <h1 class="header__title-tablet">LEGENDARY FOOTWEAR REBORN.</h1>
+                <a href="" class="header__image-link-tablet">SHOP NOW <img src="img/header__menu/Arrow1.png" alt="shop now"></a>
+            </section>
+        </section> -->
+
+
+        <!-- <section class="header__image-mobile">
+            <img src="img/header__image/rob-potter-422534-unsplas mob.jpg" alt="image">
+            <section class="header__image-text-mobile">
+                <h1 class="header__title-mobile">LEGENDARY FOOTWEAR REBORN.</h1>
+                <a href="" class="header__image-link-mobile">SHOP NOW <img src="img/header__menu/Arrow mob.png" alt="shop now"></a>
+            </section>
+        </section>
+ -->
     </header>
 
     <main class="main">
@@ -55,6 +100,9 @@
                 <article class="catalog__item_black">
                     <div class="catalog__item_img">
                         <img src="img/catalog__items/83d143ed9791a3b813121de5958d357.jpg" alt="black">
+                    </div>
+                    <div class="catalog__item_img-1170">
+                        <img src="img/catalog__items/black-1170.jpg" alt="black">
                     </div>
                     <div class="catalog__item_text">
                         <p class="catalog__item-description">Atlas Black/Rasta Axion</p class>
@@ -69,9 +117,12 @@
                 </article>
 
                 <article class="catalog__item_camel">
-                    <img class="catalog__item_png" src="img/catalog__items/Vector.png" alt="vector">
+                    <img class="catalog__item_png catalog__item_png-camel" src="img/catalog__items/Vector.png" alt="vector">
                     <div class="catalog__item_img">
                         <img src="img/catalog__items/83d143ed9791a3b813121de5958d3571.jpg" alt="camel">
+                    </div>
+                    <div class="catalog__item_img-1170">
+                        <img src="img/catalog__items/1170.jpg" alt="camel">
                     </div>
                     <div class="catalog__item_text">
                         <p class="catalog__item-description">Camel/Chili Pepper Axion</p class>
@@ -86,9 +137,12 @@
                 </article>
 
                 <article class="catalog__item_smoke">
-                    <img class="catalog__item_png" src="img/catalog__items/Vector.png" alt="vector">
+                    <img class="catalog__item_png catalog__item_png-smoke" src="img/catalog__items/Vector.png" alt="vector">
                     <div class="catalog__item_img">
                         <img src="img/catalog__items/83d143ed9791a3b813121de5958d3571 (1).jpg" alt="smoke">
+                    </div>
+                    <div class="catalog__item_img-1170">
+                        <img src="img/catalog__items/smoke-1170.jpg" alt="smoke">
                     </div>
                     <div class="catalog__item_text">
                         <p class="catalog__item-description">Mandel Smoke/Rust Axion</p class>
@@ -103,10 +157,14 @@
                 </article>
 
                 <article class="catalog__item_cloud">
-                    <img class="catalog__item_png" src="img/catalog__items/Vector.png" alt="vector">
+                    <img class="catalog__item_png catalog__item_png-camel-cloud" src="img/catalog__items/Vector.png" alt="vector">
                     <div class="catalog__item_img">
                         <img src="img/catalog__items/83d143ed9791a3b813121de5958d3571 (2).jpg" alt="cloud">
                     </div>
+                    <div class="catalog__item_img-1170">
+                        <img src="img/catalog__items/cloud-1170.jpg" alt="cloud">
+                    </div>
+
                     <div class="catalog__item_text">
                         <p class="catalog__item-description">Cloud/Electric Blue Axion</p class>
                         <p class="catalog__item-price">$69.00</p>
@@ -115,6 +173,64 @@
                             <li class="blue"></li>
                             <li class="red"></li>
                             <li class="yellow"></li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="catalog-tablet">
+            <h2 class="catalog__text-tablet">FEATURED PRODUCT</h2>
+            <section class="catalog__items-tablet">
+                <article class="catalog__item_black-tablet">
+                    <div class="catalog__item_img-tablet">
+                        <img src="img/catalog__items-tablet/83d143ed9791a3b813121de5958d3571 black.jpg" alt="black">
+                    </div>
+                    <div class="catalog__item_text-tablet">
+                        <p class="catalog__item-description-tablet">Atlas Black/Rasta Axion</p class>
+                        <p class="catalog__item-price-tablet">$89.00</p>
+                        <ul class="item__color_black-tablet">
+                            <li class="red-tablet"></li>
+                            <li class="black-tablet"></li>
+                            <li class="grey-tablet"></li>
+                            <li class="yellow-tablet"></li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="catalog__item_camel-tablet">
+                    <div class="catalog__item_img-tablet">
+                        <img src="img/catalog__items-tablet/83d143ed9791a3b813121de5958d3571 camel.jpg" alt="camel">
+                    </div>
+                    <div class="catalog__item_text-tablet">
+                        <p class="catalog__item-description-tablet">Camel/Chili Pepper Axion</p class>
+                        <p class="catalog__item-price-tablet">$74.00</p>
+                        <ul class="item__color_camel-tablet">
+                            <li class="grey-tablet"></li>
+                            <li class="camel-tablet"></li>
+                            <li class="red-tablet"></li>
+                            <li class="yellow-tablet"></li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="catalog-mobile">
+            <h2 class="catalog__text-mobile">FEATURED PRODUCT</h2>
+            <section class="catalog__items-mobile">
+                <article class="catalog__item_black-mobile">
+                    <div class="catalog__item_img-mobile">
+                        <img src="img/catalog__items-mobile/83d143ed9791a3b813121de5958d3571.jpg" alt="black">
+                    </div>
+                    <div class="catalog__item_text-mobile">
+                        <p class="catalog__item-description-mobile">Atlas Black/Rasta Axion</p class>
+                        <p class="catalog__item-price-mobile">$89.00</p>
+                        <ul class="item__color_black-mobile">
+                            <li class="red-mobile"></li>
+                            <li class="black-mobile"></li>
+                            <li class="grey-mobile"></li>
+                            <li class="yellow-mobile"></li>
                         </ul>
                     </div>
                 </article>
